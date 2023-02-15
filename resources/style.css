@@ -181,3 +181,12 @@ footer{
     justify-content: space-between;
     padding: 2rem 2rem;
 }
+@media only screen and (max-width:450px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-content: space-around ;
+        justify-content: space-around;
+    }
+
+}
